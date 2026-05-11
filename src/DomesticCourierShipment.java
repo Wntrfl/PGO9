@@ -17,8 +17,11 @@ public class DomesticCourierShipment extends ShipmentOrder{
 
     @Override
     protected double calculateBasePrice(){
-        return getBaseFee()+ getDistanceKm()*1.20;
+        double basePrice=0;
+        return basePrice= getBaseFee()+ getDistanceKm()*1.20;
     }
+
+
 
 
     @Override
