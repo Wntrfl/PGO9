@@ -19,6 +19,7 @@ public abstract class ShipmentOrder implements SummaryPrintable {
         return orderNumber;
     }
 
+
     public String getCustomerName() {
         return customerName;
     }
